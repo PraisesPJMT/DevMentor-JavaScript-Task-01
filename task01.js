@@ -5,12 +5,12 @@ with Javascript to find a suitable solution to
 this challenge*/
 
 //Global Variables
-const lowerThreshold = 0;
-const upperThreshold = 6;
+const lowerThreshold = 1;
+const upperThreshold = 100;
 let sum = 0;
 
 //Summing numbers
-for (let i = lowerThreshold+1; i < upperThreshold; i ++) {
+for (let i = lowerThreshold; i < upperThreshold; i ++) {
     sum += i;
     // console.log(sum);
 }
@@ -21,10 +21,10 @@ console.log(sum);
 // function sum(lowerThreshold, upperThreshold) {
 //     let sum = 0;
 
-//     for (let i = lowerThreshold+1; i < upperThreshold; i ++) {
+//     for (let i = lowerThreshold; i < upperThreshold; i ++) {
 //     sum += i;
 //     //console.log(sum);
 //     }
 //     return sum;
 // }
-// console.log(sum(0, 101));
+// console.log(sum(1, 101));
